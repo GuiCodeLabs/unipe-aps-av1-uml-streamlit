@@ -1,0 +1,6 @@
+RNF01 - O sistema deve possuir interface simples e intuitiva.
+RNF02 - O sistema deve validar os campos obrigatórios.
+RNF03 - O sistema deve manter os dados organizados de forma consistente.
+RNF04 - O sistema deve exibir os resultados de menor e maior consumo com clareza.
+RNF05 - O sistema deve ser desenvolvido em Python com Streamlit.
+RNF06 - O sistema deve permitir fácil manutenção do código.

@@ -1,0 +1,12 @@
+RF01 - O sistema deve permitir cadastrar uma conta de luz.
+RF02 - O sistema deve armazenar a data da leitura.
+RF03 - O sistema deve armazenar o número da leitura.
+RF04 - O sistema deve armazenar a quantidade de KW gasto no mês.
+RF05 - O sistema deve armazenar o valor a pagar.
+RF06 - O sistema deve armazenar a data do pagamento.
+RF07 - O sistema deve armazenar a média de consumo.
+RF08 - O sistema deve permitir listar as contas cadastradas.
+RF09 - O sistema deve permitir identificar o mês de menor consumo.
+RF10 - O sistema deve permitir identificar o mês de maior consumo.
+RF11 - O sistema deve permitir atualizar os dados de uma conta cadastrada.
+RF12 - O sistema deve permitir remover uma conta cadastrada.

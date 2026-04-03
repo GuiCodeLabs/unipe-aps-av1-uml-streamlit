@@ -1,0 +1,27 @@
+@startuml
+class ContaLuz {
+  - dataLeitura: date
+  - numeroLeitura: int
+  - kwGasto: float
+  - valorPagar: decimal
+  - dataPagamento: date
+  - mediaConsumo: float
+  - mesReferencia: string
+  + cadastrarConta()
+  + editarConta()
+  + calcularMediaConsumo()
+  + obterMesReferencia()
+  + registrarPagamento(data)
+}
+
+class ControleContasLuz {
+  - contas: List<ContaLuz>
+  + adicionarConta(conta)
+  + removerConta(numeroLeitura)
+  + listarContas()
+  + buscarMenorConsumo()
+  + buscarMaiorConsumo()
+}
+
+ControleContasLuz "1" -- "0..*" ContaLuz
+@enduml
