@@ -1,0 +1,4 @@
+RNF01 - O sistema deve ser desenvolvido em Python utilizando o framework Streamlit.
+RNF02 - A atualização da posição do boneco na interface deve ser fluida.
+RNF03 - O estado do boneco deve ser mantido de forma consistente entre as interações do usuário.
+RNF04 - O sistema deve validar os limites de movimentação para evitar erros de renderização.

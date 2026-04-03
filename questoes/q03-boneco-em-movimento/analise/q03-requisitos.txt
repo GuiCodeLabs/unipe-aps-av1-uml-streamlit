@@ -1,0 +1,11 @@
+RF01 - O sistema deve permitir cadastrar o nome do boneco.
+RF02 - O sistema deve armazenar a posição X do boneco.
+RF03 - O sistema deve armazenar a posição Y do boneco.
+RF04 - O sistema deve armazenar a direção atual do boneco.
+RF05 - O sistema deve permitir mover o boneco para cima.
+RF06 - O sistema deve permitir mover o boneco para baixo.
+RF07 - O sistema deve permitir mover o boneco para a esquerda.
+RF08 - O sistema deve permitir mover o boneco para a direita.
+RF09 - O sistema deve permitir alterar a direção atual do boneco.
+RF10 - O sistema deve exibir a posição atual do boneco.
+RF11 - O sistema deve exibir o estado atual do boneco, incluindo nome, posição e direção.

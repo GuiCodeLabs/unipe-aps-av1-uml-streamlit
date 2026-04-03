@@ -1,0 +1,28 @@
+@startuml
+title Questão 3 - Boneco em Movimento
+
+enum Direcao {
+  CIMA
+  BAIXO
+  ESQUERDA
+  DIREITA
+}
+
+class Boneco {
+  - nome: String
+  - posicaoX: int
+  - posicaoY: int
+  - direcaoAtual: Direcao
+  --
+  + mover(): void
+  + moverCima(): void
+  + moverBaixo(): void
+  + moverEsquerda(): void
+  + moverDireita(): void
+  + alterarDirecao(novaDirecao: Direcao): void
+  + exibirPosicao(): String
+  + exibirEstado(): String
+}
+
+Boneco --> Direcao
+@enduml
