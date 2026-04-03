@@ -1,0 +1,14 @@
+RF01 - O sistema deve permitir cadastrar uma lista de compras mensal.
+RF02 - O sistema deve permitir cadastrar o nome do produto.
+RF03 - O sistema deve permitir informar a unidade de compra do produto.
+RF04 - O sistema deve permitir informar a quantidade prevista para o mês.
+RF05 - O sistema deve permitir informar a quantidade que efetivamente será comprada.
+RF06 - O sistema deve permitir informar o preço estimado do produto.
+RF07 - O sistema deve permitir adicionar itens à lista de compras mensal.
+RF08 - O sistema deve permitir listar todos os itens da lista de compras.
+RF09 - O sistema deve permitir editar um item da lista.
+RF10 - O sistema deve permitir excluir um item da lista.
+RF11 - O sistema deve calcular o subtotal de cada item com base na quantidade de compra e no preço estimado.
+RF12 - O sistema deve calcular o total da lista de compras mensal.
+RF13 - O sistema deve permitir atualizar o preço estimado dos produtos mensalmente.
+RF14 - O sistema deve exibir um resumo da lista de compras do mês.

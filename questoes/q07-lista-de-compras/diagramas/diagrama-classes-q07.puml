@@ -1,0 +1,49 @@
+@startuml
+title Questão 07 - Lista de Compras
+
+class Produto {
+  - nome : string
+  + cadastrar()
+  + editarNome()
+}
+
+class UnidadeCompra {
+  - descricao : string
+  - sigla : string
+  + cadastrar()
+  + editarDescricao()
+}
+
+class ItemListaCompra {
+  - quantidadeMes : float
+  - quantidadeCompra : float
+  - precoEstimado : decimal
+  - /produto : Produto
+  - /unidadeCompra : UnidadeCompra
+  - /subtotal : decimal
+  + cadastrar()
+  + editar()
+  + excluir()
+  + calcularSubtotal()
+  + atualizarQuantidadeCompra(novaQuantidade : float)
+  + atualizarPrecoEstimado(novoPreco : decimal)
+}
+
+class ListaComprasMensal {
+  - mes : int
+  - ano : int
+  - /itens : List<ItemListaCompra>
+  - /total : decimal
+  + adicionarItem(item : ItemListaCompra)
+  + removerItem(item : ItemListaCompra)
+  + listarItens()
+  + calcularTotal()
+  + emitirResumo()
+  + atualizarPrecoProduto(produto : Produto, novoPreco : decimal)
+}
+
+ListaComprasMensal "1" -- "0..*" ItemListaCompra
+ItemListaCompra "0..*" --> "1" Produto
+ItemListaCompra "0..*" --> "1" UnidadeCompra
+
+@enduml
