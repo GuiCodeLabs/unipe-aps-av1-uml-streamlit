@@ -1,0 +1,15 @@
+RF01 - O sistema deve permitir cadastrar um gasto diário.
+RF02 - O sistema deve permitir informar o tipo do gasto.
+RF03 - O sistema deve permitir informar a data do gasto.
+RF04 - O sistema deve permitir informar o valor do gasto.
+RF05 - O sistema deve permitir informar a forma de pagamento do gasto.
+RF06 - O sistema deve permitir listar todos os gastos cadastrados.
+RF07 - O sistema deve permitir editar um gasto cadastrado.
+RF08 - O sistema deve permitir excluir um gasto cadastrado.
+RF09 - O sistema deve permitir consultar os gastos de um determinado mês.
+RF10 - O sistema deve calcular o total de gastos mensais.
+RF11 - O sistema deve agrupar os gastos mensais por tipo de gasto.
+RF12 - O sistema deve exibir o total gasto em cada tipo de gasto.
+RF13 - O sistema deve agrupar os gastos mensais por forma de pagamento.
+RF14 - O sistema deve exibir o total gasto em cada forma de pagamento.
+RF15 - O sistema deve emitir um resumo mensal dos gastos.

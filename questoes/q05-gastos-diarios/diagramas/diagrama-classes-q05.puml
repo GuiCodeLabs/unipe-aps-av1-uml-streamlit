@@ -1,0 +1,42 @@
+@startuml
+title Questão 05 - Gastos Diários
+
+class Gasto {
+  - data : date
+  - valor : decimal
+  - /tipo : TipoGasto
+  - /formaPagamento : FormaPagamento
+  + cadastrar()
+  + editar()
+  + excluir()
+  + obterResumo()
+}
+
+class TipoGasto {
+  - descricao : string
+  + cadastrar()
+  + editarDescricao()
+}
+
+class FormaPagamento {
+  - descricao : string
+  + cadastrar()
+  + editarDescricao()
+}
+
+class ControleGastos {
+  - gastos : List<Gasto>
+  + adicionarGasto(gasto : Gasto)
+  + removerGasto(gasto : Gasto)
+  + listarGastosDoMes(mes : int, ano : int)
+  + calcularTotalMensal(mes : int, ano : int)
+  + agruparTotalPorTipo(mes : int, ano : int)
+  + agruparTotalPorFormaPagamento(mes : int, ano : int)
+  + emitirRelatorioMensal(mes : int, ano : int)
+}
+
+ControleGastos "1" -- "0..*" Gasto
+Gasto "0..*" --> "1" TipoGasto
+Gasto "0..*" --> "1" FormaPagamento
+
+@enduml

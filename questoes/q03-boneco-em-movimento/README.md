@@ -124,6 +124,7 @@ q03-boneco-em-movimento/
 │   └── requisitos.txt
 ├── diagramas/
 │   └── diagrama-classes.puml
+│   └── diagrama-classes-q05.png  
 ├── app/
 │   ├── app.py
 │   └── requirements.txt
