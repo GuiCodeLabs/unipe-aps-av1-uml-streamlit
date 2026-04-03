@@ -1,0 +1,10 @@
+RNF01 - O sistema deve seguir o paradigma de orientação a objetos.
+RNF02 - O sistema deve utilizar herança para evitar duplicação de atributos e métodos comuns.
+RNF03 - O sistema deve manter a modelagem organizada e de fácil entendimento.
+RNF04 - O sistema deve permitir fácil manutenção e evolução das classes.
+RNF05 - O sistema deve garantir consistência entre as subclasses e a superclasse.
+RNF06 - O sistema deve representar corretamente os tipos de dados dos atributos.
+RNF07 - O sistema deve permitir reutilização de código por meio da superclasse Pessoa.
+RNF08 - O sistema deve manter separação clara entre características comuns e específicas.
+RNF09 - O sistema deve possuir nomenclatura clara para classes, atributos e métodos.
+RNF10 - O sistema deve ser compatível com a documentação UML da questão.

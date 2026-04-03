@@ -1,0 +1,67 @@
+@startuml
+title Questão 11 - Herança
+
+class Pessoa {
+  - nome : string
+  - dataNascimento : date
+  - /endereco : Endereco
+  - /telesContato : Colecao<Telefone>
+  + cadastrar()
+  + obterIdade()
+}
+
+class Funcionario {
+  - matricula : integer
+  - /cargo : Cargo
+  - salario : real
+  - dataAdmissao : date
+  + reajustarSalario(percentual : real)
+  + promover(novoCargo : Cargo)
+}
+
+class Cliente {
+  - codigo : string
+  - /profissao : Profissao
+}
+
+class Endereco {
+  - logradouro : string
+  - numero : string
+  - bairro : string
+  - cidade : string
+  - estado : string
+  - cep : string
+  + cadastrar()
+  + atualizar()
+}
+
+class Telefone {
+  - numero : string
+  - tipo : string
+  + cadastrar()
+  + atualizar()
+}
+
+class Cargo {
+  - nome : string
+  - descricao : string
+  + cadastrar()
+  + atualizar()
+}
+
+class Profissao {
+  - nome : string
+  - descricao : string
+  + cadastrar()
+  + atualizar()
+}
+
+Pessoa <|-- Funcionario
+Pessoa <|-- Cliente
+
+Pessoa "1" --> "1" Endereco
+Pessoa "1" --> "0..*" Telefone
+Funcionario "0..*" --> "1" Cargo
+Cliente "0..*" --> "1" Profissao
+
+@enduml

@@ -1,0 +1,17 @@
+RF01 - O sistema deve permitir cadastrar uma pessoa.
+RF02 - O sistema deve permitir informar o nome da pessoa.
+RF03 - O sistema deve permitir informar a data de nascimento da pessoa.
+RF04 - O sistema deve permitir associar um endereço à pessoa.
+RF05 - O sistema deve permitir associar um ou mais telefones de contato à pessoa.
+RF06 - O sistema deve permitir calcular a idade da pessoa com base na data de nascimento.
+RF07 - O sistema deve permitir cadastrar um funcionário.
+RF08 - O sistema deve permitir informar a matrícula do funcionário.
+RF09 - O sistema deve permitir associar um cargo ao funcionário.
+RF10 - O sistema deve permitir informar o salário do funcionário.
+RF11 - O sistema deve permitir informar a data de admissão do funcionário.
+RF12 - O sistema deve permitir reajustar o salário do funcionário por percentual.
+RF13 - O sistema deve permitir promover o funcionário para um novo cargo.
+RF14 - O sistema deve permitir cadastrar um cliente.
+RF15 - O sistema deve permitir informar o código do cliente.
+RF16 - O sistema deve permitir associar uma profissão ao cliente.
+RF17 - O sistema deve reutilizar os dados comuns de funcionário e cliente por meio de uma superclasse.
