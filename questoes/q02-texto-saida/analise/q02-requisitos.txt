@@ -1,0 +1,8 @@
+RF01: O sistema deve permitir informar o conteúdo do texto.
+RF02: O sistema deve permitir definir o tamanho da letra.
+RF03: O sistema deve permitir escolher a cor da fonte.
+RF04: O sistema deve permitir escolher a cor do fundo.
+RF05: O sistema deve permitir escolher o tipo de componente de exibição.
+RF06: O sistema deve exibir o texto configurado no componente selecionado.
+RF07: O sistema deve limitar as cores às opções: preto, branco, azul, amarelo e cinza.
+RF08: O sistema deve limitar o componente às opções: label, edit e memo.

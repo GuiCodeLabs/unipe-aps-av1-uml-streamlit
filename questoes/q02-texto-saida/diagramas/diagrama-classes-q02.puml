@@ -1,0 +1,16 @@
+@startuml
+class TextoSaida {
+  - conteudo : String
+  - tamanhoLetra : Integer
+  - corFonte : String
+  - corFundo : String
+  - tipoComponente : String
+
+  + definirTexto(texto : String) : void
+  + alterarTamanhoLetra(tamanho : Integer) : void
+  + alterarCorFonte(cor : String) : void
+  + alterarCorFundo(cor : String) : void
+  + definirTipoComponente(tipo : String) : void
+  + exibir() : void
+}
+@enduml
