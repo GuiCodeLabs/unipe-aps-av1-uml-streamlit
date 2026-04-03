@@ -1,0 +1,10 @@
+RNF01 - O sistema deve possuir interface simples e intuitiva.
+RNF02 - O sistema deve validar os campos obrigatórios no cadastro.
+RNF03 - O sistema deve manter consistência entre CDs, músicos, músicas e faixas.
+RNF04 - O sistema deve exibir os resultados das consultas de forma clara e organizada.
+RNF05 - O sistema deve ser desenvolvido em Python.
+RNF06 - O sistema deve utilizar Streamlit para a interface web.
+RNF07 - O sistema deve permitir fácil manutenção e evolução do código.
+RNF08 - O sistema deve apresentar desempenho adequado para consultas da coleção.
+RNF09 - O sistema deve armazenar corretamente a duração das faixas.
+RNF10 - O sistema deve organizar os dados de modo que facilite futuras expansões.

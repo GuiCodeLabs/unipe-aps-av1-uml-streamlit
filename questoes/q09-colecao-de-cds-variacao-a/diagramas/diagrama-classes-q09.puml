@@ -1,0 +1,18 @@
+@startuml
+title Questão 09 - Coleção de CDs (Variação A)
+
+class CD
+class Musico
+class Musica
+class Faixa
+class ControleColecaoCD
+
+ControleColecaoCD "1" -- "0..*" CD
+ControleColecaoCD "1" -- "0..*" Musico
+ControleColecaoCD "1" -- "0..*" Musica
+
+CD "1" -- "1..*" Faixa
+CD "1..*" -- "1..*" Musico
+Faixa "0..*" -- "1" Musica
+
+@enduml
