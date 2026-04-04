@@ -1,0 +1,15 @@
+RF01 - O sistema deve permitir cadastrar um remédio.
+RF02 - O sistema deve permitir informar o nome da pessoa que tomará o remédio.
+RF03 - O sistema deve permitir informar a data de início do tratamento.
+RF04 - O sistema deve permitir informar a quantidade de dias prescrita.
+RF05 - O sistema deve permitir informar a quantidade de vezes ao dia.
+RF06 - O sistema deve permitir informar a dosagem do remédio.
+RF07 - O sistema deve permitir informar o nome do remédio.
+RF08 - O sistema deve sugerir horários possíveis para administração do remédio.
+RF09 - O sistema deve permitir ao usuário escolher os horários desejados.
+RF10 - O sistema deve calcular a data final do tratamento.
+RF11 - O sistema deve gerar a planilha diária de horários.
+RF12 - O sistema deve permitir visualizar os horários do dia.
+RF13 - O sistema deve reorganizar os horários do dia em caso de atraso.
+RF14 - O sistema deve permitir marcar um horário como tomado.
+RF15 - O sistema deve permitir consultar os dados do tratamento.
