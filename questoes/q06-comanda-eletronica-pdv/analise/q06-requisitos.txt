@@ -1,0 +1,11 @@
+RF01 - O sistema deve permitir abrir uma nova comanda.
+RF02 - O sistema deve permitir registrar produtos consumidos na comanda.
+RF03 - O sistema deve permitir informar a quantidade de cada produto.
+RF04 - O sistema deve armazenar os produtos associados à comanda.
+RF05 - O sistema deve permitir listar os itens da comanda.
+RF06 - O sistema deve calcular o valor total da comanda.
+RF07 - O sistema deve utilizar o valor unitário dos produtos para o cálculo.
+RF08 - O sistema deve permitir remover itens da comanda.
+RF09 - O sistema deve permitir buscar uma comanda pelo número.
+RF10 - O sistema deve permitir finalizar a comanda no caixa.
+RF11 - O sistema deve alterar o status da comanda após finalização.
