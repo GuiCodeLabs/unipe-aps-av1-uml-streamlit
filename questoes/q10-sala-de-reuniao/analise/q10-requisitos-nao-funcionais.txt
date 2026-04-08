@@ -1,0 +1,10 @@
+RNF01 - O sistema deve possuir interface simples e intuitiva.
+RNF02 - O sistema deve validar campos obrigatórios no cadastro.
+RNF03 - O sistema deve impedir conflitos de horário para a mesma sala.
+RNF04 - O sistema deve exibir as informações de forma clara e organizada.
+RNF05 - O sistema deve permitir fácil manutenção do código.
+RNF06 - O sistema deve ser desenvolvido em Python.
+RNF07 - O sistema deve utilizar Streamlit para a interface web.
+RNF08 - O sistema deve apresentar desempenho adequado para consultas de disponibilidade.
+RNF09 - O sistema deve manter consistência nos dados cadastrados.
+RNF10 - O sistema deve facilitar futuras expansões do sistema.

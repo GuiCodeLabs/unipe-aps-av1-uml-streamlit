@@ -1,0 +1,5 @@
+RNF01: A interface deve ser simples e intuitiva.
+RNF02: O tempo de resposta da atualização visual deve ser imediato.
+RNF03: O sistema deve validar entradas inválidas.
+RNF04: O sistema deve funcionar corretamente em ambiente web.
+RNF05: O sistema deve ter fácil manutenção e organização do código

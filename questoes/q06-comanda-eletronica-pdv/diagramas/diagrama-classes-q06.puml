@@ -1,0 +1,40 @@
+@startuml
+title Questão 06 - Comanda Eletrônica (PDV)
+
+class Produto {
+  +codigo : int
+  +nome : string
+  +valorUnitario : decimal
+  +cadastrar()
+  +editarPreco()
+}
+
+class ItemComanda {
+  +quantidade : int
+  +/produto : Produto
+  +calcularSubtotal()
+}
+
+class Comanda {
+  +numero : int
+  +status : string
+  +/itens : List<ItemComanda>
+  +adicionarItem(produto, quantidade)
+  +removerItem(item)
+  +calcularTotal()
+  +finalizarCompra()
+}
+
+class Caixa {
+  +comandas : List<Comanda>
+  +abrirComanda(numero)
+  +buscarComanda(numero)
+  +registrarConsumo(numeroComanda, produto, quantidade)
+  +fecharComanda(numeroComanda)
+}
+
+Produto "1" -- "0..*" ItemComanda
+Comanda "1" -- "0..*" ItemComanda
+Caixa "1" -- "0..*" Comanda
+
+@enduml

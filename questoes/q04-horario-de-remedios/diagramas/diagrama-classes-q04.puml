@@ -1,0 +1,51 @@
+@startuml
+class Paciente {
+  - nome : string
+  + cadastrar()
+  + editarNome()
+}
+
+class Remedio {
+  - nome : string
+  - dosagem : string
+  - dataInicio : date
+  - quantidadeDias : int
+  - vezesAoDia : int
+  - /paciente : Paciente
+  + cadastrar()
+  + calcularDataFim()
+  + obterResumo()
+  + validarCadastro()
+}
+
+class HorarioMedicacao {
+  - hora : time
+  - status : string
+  - observacao : string
+  - /remedio : Remedio
+  + marcarComoTomado()
+  + marcarComoAtrasado()
+  + reagendar()
+  + exibirHorario()
+}
+
+class PlanoMedicacao {
+  - /remedio : Remedio
+  - horarios : List<HorarioMedicacao>
+  - dataFim : date
+  + sugerirHorarios()
+  + definirHorarios()
+  + gerarHorariosDoDia(data)
+  + reorganizarHorariosDoDia()
+  + calcularDataFimTratamento()
+}
+
+class PlanilhaDiaria {
+  - data : date
+  - /horariosDoDia : List<HorarioMedicacao>
+  + listarHorarios()
+  + exibirPlanilha()
+  + atualizarPlanilha()
+  + reorganizarPorAtraso()
+}
+@enduml
