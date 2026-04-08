@@ -1,0 +1,13 @@
+RF01 - O sistema deve permitir cadastrar um CD.
+RF02 - O sistema deve permitir informar o título do CD.
+RF03 - O sistema deve permitir informar o ano de lançamento do CD.
+RF04 - O sistema deve permitir informar o nome do cantor, cantora ou conjunto do CD.
+RF05 - O sistema deve permitir cadastrar um artista.
+RF06 - O sistema deve permitir associar um artista a um CD.
+RF07 - O sistema deve permitir listar todos os CDs cadastrados.
+RF08 - O sistema deve permitir buscar CDs pelo título.
+RF09 - O sistema deve permitir buscar CDs pelo nome do artista.
+RF10 - O sistema deve permitir editar os dados de um CD cadastrado.
+RF11 - O sistema deve permitir editar os dados de um artista cadastrado.
+RF12 - O sistema deve permitir excluir um CD cadastrado.
+RF13 - O sistema deve permitir exibir a descrição resumida de um CD.

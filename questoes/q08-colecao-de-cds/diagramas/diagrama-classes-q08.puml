@@ -1,0 +1,33 @@
+@startuml
+title Questão 08 - Coleção de CDs
+
+class Artista {
+  - nome : string
+  + cadastrar()
+  + editarNome()
+  + obterNome()
+}
+
+class CD {
+  - titulo : string
+  - anoLancamento : int
+  - /artista : Artista
+  + cadastrar()
+  + editar()
+  + excluir()
+  + obterDescricao()
+}
+
+class ColecaoCDs {
+  - cds : List<CD>
+  + adicionarCD(cd : CD)
+  + removerCD(cd : CD)
+  + listarCDs()
+  + buscarPorTitulo(titulo : string)
+  + buscarPorArtista(nomeArtista : string)
+}
+
+ColecaoCDs "1" -- "0..*" CD
+CD "0..*" --> "1" Artista
+
+@enduml

@@ -1,0 +1,10 @@
+RNF01 - O sistema deve possuir interface simples e fácil de usar.
+RNF02 - O sistema deve validar os campos obrigatórios no cadastro do CD.
+RNF03 - O sistema deve validar o ano de lançamento informado.
+RNF04 - O sistema deve manter os dados cadastrados organizados de forma consistente.
+RNF05 - O sistema deve permitir fácil manutenção do código.
+RNF06 - O sistema deve ser desenvolvido em Python.
+RNF07 - O sistema deve utilizar Streamlit para a interface web.
+RNF08 - O sistema deve apresentar desempenho adequado para operações de cadastro, listagem e busca.
+RNF09 - O sistema deve exibir as informações dos CDs de forma clara e organizada.
+RNF10 - O sistema deve permitir expansão futura da aplicação sem comprometer a estrutura atual.
