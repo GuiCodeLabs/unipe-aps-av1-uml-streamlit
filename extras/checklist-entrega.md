@@ -78,9 +78,9 @@
 - [x] Aplicação concluída
 
 ### Questão 04
-- [ ] Análise concluída
-- [ ] Diagrama concluído
-- [ ] Aplicação concluída
+- [x] Análise concluída
+- [x] Diagrama concluído
+- [x] Aplicação concluída
 
 ### Questão 05
 - [x] Análise concluída
@@ -88,9 +88,9 @@
 - [x] Aplicação concluída
 
 ### Questão 06
-- [ ] Análise concluída
-- [ ] Diagrama concluído
-- [ ] Aplicação concluída
+- [x] Análise concluída
+- [x] Diagrama concluído
+- [x] Aplicação concluída
 
 ### Questão 07
 - [x] Análise concluída
@@ -98,9 +98,9 @@
 - [x] Aplicação concluída
 
 ### Questão 08
-- [ ] Análise concluída
-- [ ] Diagrama concluído
-- [ ] Aplicação concluída
+- [x] Análise concluída
+- [x] Diagrama concluído
+- [x] Aplicação concluída
 
 ### Questão 09
 - [x] Análise concluída
@@ -108,9 +108,9 @@
 - [x] Aplicação concluída
 
 ### Questão 10
-- [ ] Análise concluída
-- [ ] Diagrama concluído
-- [ ] Aplicação concluída
+- [x] Análise concluída
+- [x] Diagrama concluído
+- [x] Aplicação concluída
 
 ### Questão 11
 - [x] Análise concluída
