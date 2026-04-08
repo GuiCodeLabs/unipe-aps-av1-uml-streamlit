@@ -1,0 +1,56 @@
+@startuml
+title Questão 10 - Sala de Reunião
+
+class SalaReuniao {
+  - numero : String
+  - quantidadeLugares : int
+  + cadastrar()
+  + editarCapacidade()
+  + obterDisponibilidade(data : Date, horarioInicio : Time, horarioFim : Time)
+}
+
+class Funcionario {
+  - nome : String
+  - cargo : String
+  - ramal : String
+  + cadastrar()
+  + editarDados()
+  + obterContato()
+}
+
+class Reuniao {
+  - data : Date
+  - horarioInicio : Time
+  - horarioFim : Time
+  - assunto : String
+  - /funcionario : Funcionario
+  - /sala : SalaReuniao
+  + agendar()
+  + editar()
+  + realocar(novaSala : SalaReuniao, novaData : Date, novoHorarioInicio : Time, novoHorarioFim : Time)
+  + cancelar()
+  + obterResumo()
+}
+
+class ControleReunioes {
+  - reunioes : List<Reuniao>
+  - salas : List<SalaReuniao>
+  - funcionarios : List<Funcionario>
+  + adicionarSala(sala : SalaReuniao)
+  + adicionarFuncionario(funcionario : Funcionario)
+  + agendarReuniao(reuniao : Reuniao)
+  + realocarReuniao(reuniao : Reuniao, novaSala : SalaReuniao, novaData : Date, novoHorarioInicio : Time, novoHorarioFim : Time)
+  + cancelarReuniao(reuniao : Reuniao)
+  + listarReunioesPorData(data : Date)
+  + consultarSalasLivres(data : Date, horarioInicio : Time, horarioFim : Time)
+  + verificarConflito(sala : SalaReuniao, data : Date, horarioInicio : Time, horarioFim : Time)
+}
+
+ControleReunioes "1" -- "0..*" Reuniao
+ControleReunioes "1" -- "0..*" SalaReuniao
+ControleReunioes "1" -- "0..*" Funcionario
+
+Funcionario "1" -- "0..*" Reuniao
+SalaReuniao "1" -- "0..*" Reuniao
+
+@enduml

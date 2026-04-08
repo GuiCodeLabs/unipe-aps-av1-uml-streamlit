@@ -1,0 +1,15 @@
+RF01 - O sistema deve permitir cadastrar salas de reunião.
+RF02 - O sistema deve permitir informar o número da sala.
+RF03 - O sistema deve permitir informar a quantidade de lugares da sala.
+RF04 - O sistema deve permitir cadastrar funcionários.
+RF05 - O sistema deve permitir informar nome, cargo e ramal do funcionário.
+RF06 - O sistema deve permitir agendar reuniões.
+RF07 - O sistema deve permitir informar data, horário de início, horário de fim e assunto da reunião.
+RF08 - O sistema deve vincular uma reunião a um funcionário.
+RF09 - O sistema deve vincular uma reunião a uma sala.
+RF10 - O sistema deve permitir realocar uma reunião, alterando sala e/ou data e/ou horário.
+RF11 - O sistema deve permitir cancelar uma reunião.
+RF12 - O sistema deve permitir listar reuniões de uma determinada data.
+RF13 - O sistema deve permitir consultar salas livres em uma data e faixa de horário.
+RF14 - O sistema deve verificar conflitos de horário antes de confirmar um agendamento.
+RF15 - O sistema deve exibir a capacidade de cada sala nas consultas.
