@@ -4,7 +4,7 @@
 ![Streamlit](https://img.shields.io/badge/Streamlit-Web%20Apps-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)
 ![PlantUML](https://img.shields.io/badge/PlantUML-Diagramas-FBBF24?style=flat-square)
 ![SQLite](https://img.shields.io/badge/SQLite-Banco%20Local-003B57?style=flat-square&logo=sqlite&logoColor=white)
-![Status](https://img.shields.io/badge/Status-Em%20Desenvolvimento-orange?style=flat-square)
+![Status](https://img.shields.io/badge/Status-%20Concluído-green?style=flat-square)
 ![Disciplina](https://img.shields.io/badge/Disciplina-An%C3%A1lise%20e%20Projeto%20de%20Sistemas%20I-2563EB?style=flat-square)
 
 > Projeto acadêmico da **1ª avaliação (AV1)** da disciplina **Análise e Projeto de Sistemas I**, com foco em **modelagem orientada a objetos**, **diagramas UML**, **levantamento de requisitos** e **desenvolvimento de aplicações em Python com Streamlit**.
